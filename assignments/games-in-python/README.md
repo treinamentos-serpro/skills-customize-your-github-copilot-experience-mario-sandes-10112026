@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construa o clássico jogo da Forca em Python para praticar manipulação de strings, seleção aleatória, loops, condicionais e entrada de dados do usuário.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar o jogo da Forca
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Desenvolva um jogo em que a pessoa jogadora tenta adivinhar uma palavra oculta, uma letra por vez, antes de esgotar as tentativas disponíveis.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra de uma lista predefinida.
+- Aceitar palpites de letras e mostrar o progresso no formato `_ _ _`.
+- Atualizar o progresso quando uma letra correta for informada.
+- Contabilizar e exibir as tentativas incorretas restantes.
+- Encerrar quando a palavra for adivinhada ou as tentativas se esgotarem.
+- Exibir uma mensagem indicando vitória ou derrota.
+
+### 🛠️ Testar diferentes resultados do jogo
+
+#### Descrição
+Execute partidas para verificar o comportamento do jogo tanto quando a palavra é adivinhada quanto quando as tentativas acabam.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir a palavra completa e uma mensagem de vitória quando ela for adivinhada.
+- Exibir a palavra oculta e uma mensagem de derrota quando as tentativas se esgotarem.
+- Atualizar corretamente o progresso e o número de tentativas após cada palpite.
