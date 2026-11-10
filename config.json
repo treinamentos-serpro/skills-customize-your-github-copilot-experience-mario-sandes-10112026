@@ -65,6 +65,13 @@
       "description": "Build and test REST endpoints with FastAPI, Pydantic validation, and HTTP status codes.",
       "path": "assignments/fastapi-rest-api",
       "dueDate": "2026-11-17"
+    },
+    {
+      "id": "json-data-persistence",
+      "title": "JSON File Persistence",
+      "description": "Save, load, and update Python data in JSON files to preserve it between program runs.",
+      "path": "assignments/json-data-persistence",
+      "dueDate": "2026-11-17"
     }
   ]
 }
